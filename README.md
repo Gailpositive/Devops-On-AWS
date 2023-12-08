@@ -1,6 +1,8 @@
 # Devops-On-AWS
 ## Code, Build And Test
 
+### EXERCISE: Setting Up The Development Environment
+
 ### Note
 * The exercises in this course will have an associated charge in your AWS account. In this exercise, you will create the following resources:
 
