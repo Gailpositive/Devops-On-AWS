@@ -1,6 +1,9 @@
 
 # DEVOPS ON AWS..CODE, BUILD AND TEST.
 ## Introduction to DevOps cultural philosophies, practices, and tools to deliver applications and services faster and at a higher quality. 
+<img width="495" alt="image 3" src="https://github.com/IwunzeGE/DevOps-Project/assets/111061512/eeb8e89f-f45a-4cf0-aa64-5d367586a7c4">
+
+
 ### AWS APPLICATION used:  
 * AWS Cloud9 development environment for a sample application
 * Amazon Simple Storage Service (Amazon S3) bucket
@@ -9,6 +12,7 @@
 * AWS Step Functions state machine
 * AWS Lambda functions
 * The final exercise includes instructions to delete all the resources created in the exercises.
+<img width="483" alt="image8" src="https://github.com/IwunzeGE/DevOps-Project/assets/111061512/9a1fcdd2-2fb9-4774-b2be-bbfc9dbd0233">
 
 ### Learning Objectives
 * Describe how the DevOps model benefits development and operations teams
@@ -17,7 +21,5 @@
 * Explore how I can use AWS CodeBuild to build and test code with continuous scaling
 * Evaluate Git branching strategies
 
-### Exercise: Setting Up Your Development Environment
-In a production environment, I  would normally create a customer managed policy in AWS Identity and Access Management (IAM). Customer managed policies provide more precise control over my policies than policies that AWS manages. This policy would then have permissions that are specific to the AWS resources I need. I would also attach this policy to a new user and log in to the AWS Management Console with that new user. However, because I am working in an exercise environment, those steps were omitted.
-
-In this exercise, I will start by creating an AWS Cloud9 environment for your development environment. In this environment, I will download and extract the source code that I will use in this course. I will deploy the application’s backend infrastructure by using the AWS Serverless Application Model Command Line Interface (AWS SAM CLI). I will use AWS SAM to create all the resources that host the backend of the application: an Amazon API Gateway gateway, AWS Lambda functions, an Amazon DynamoDB table, and an AWS Step Functions state machine. I will also deploy the application frontend: a React web application that’s hosted on an S3 bucket, which acts as the web server. After the application is up and running, I will put the application under source control by using AWS CodeCommit.
+### Exercise: Setting Up Development Environment
+In a production environment, I'd create a custom policy in AWS IAM for precise control. However, for this exercise, I skip that. I'm setting up a development space with AWS Cloud9, downloading code, and using AWS SAM CLI to build a serverless app. It includes backend elements like API Gateway, Lambda functions, DynamoDB, and a smart process. The frontend, a React web app, sits in an S3 bucket. Finally, I store my progress in AWS CodeCommit once the app is running.
