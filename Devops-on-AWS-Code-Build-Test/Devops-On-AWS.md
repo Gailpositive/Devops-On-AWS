@@ -1,6 +1,9 @@
 
-# DEVOPS ON AWS..CODE, BUILD AND TEST.
-## Introduction to DevOps cultural philosophies, practices, and tools to deliver applications and services faster and at a higher quality. 
+# CREATING A REACT WEB APP ON AWS DEVOPS
+## Introduction to AWS DevOps  practices, and tools to deliver applications and services faster and at a higher quality. 
+### Exercise: Setting Up Development Environment
+In a production environment, I'd create a custom policy in AWS IAM for precise control. However, for this exercise, I skip that. I'm setting up a development space with AWS Cloud9, downloading code, and using AWS SAM CLI to build a serverless app. It includes backend elements like API Gateway, Lambda functions, DynamoDB, and a smart process. The frontend, a React web app, sits in an S3 bucket. Finally, I store my progress in AWS CodeCommit once the app is running.
+
 <img width="495" alt="image 3" src="https://github.com/IwunzeGE/DevOps-Project/assets/111061512/eeb8e89f-f45a-4cf0-aa64-5d367586a7c4">
 
 
@@ -19,11 +22,8 @@
 * Explore how I can use AWS CodeBuild to build and test code with continuous scaling
 * Evaluate Git branching strategies
 
-### Exercise: Setting Up Development Environment
-In a production environment, I'd create a custom policy in AWS IAM for precise control. However, for this exercise, I skip that. I'm setting up a development space with AWS Cloud9, downloading code, and using AWS SAM CLI to build a serverless app. It includes backend elements like API Gateway, Lambda functions, DynamoDB, and a smart process. The frontend, a React web app, sits in an S3 bucket. Finally, I store my progress in AWS CodeCommit once the app is running.
 
-### Step 1:
-* Create cloud9 environment on AWS services 
+### Task 1: Create cloud9 environment and downloading the application
 <img width="960" alt="3" src="https://github.com/Gailpositive/Aws-Networking-Implementation-Projects/assets/111061512/94bb4cee-947b-4599-ad34-9406632f69da">
 
 * Give the app a name, brief description and create a new ec2 instance for the app to run on
@@ -34,3 +34,22 @@ In a production environment, I'd create a custom policy in AWS IAM for precise c
 
 * Cloud9 environment IDE terminal opened
 <img width="958" alt="6" src="https://github.com/Gailpositive/Aws-Networking-Implementation-Projects/assets/111061512/78008e02-0abd-4993-bdfa-3b47a1170e43">
+
+* Download the application and upzip the file
+<img width="960" alt="4" src="https://github.com/Gailpositive/Aws-Networking-Implementation-Projects/assets/111061512/50b7a130-7d7e-424f-89a3-50c900425487">
+
+### Task 2: In deploying AWS serverless application model (SAM) & AWS command line interface (CLI) to create the back-end infrastracture, I cd into the app folder and  use SAM to build the template.yaml file.
+
+<img width="957" alt="5" src="https://github.com/Gailpositive/Aws-Networking-Implementation-Projects/assets/111061512/54b3a124-27bf-480f-abab-661be43e12d3">
+* From the Outputs table in the terminal output, I copy and saved the Websocket Value
+
+ ### Task 3: Testing the frontend on cloud9
+*  SAM deployed
+*  i cd into the path "trivia-app/front-end-react/src/config.js"
+*  Cat the "config.js" file to view the websocketend point to update
+*  Vi  "confif.js"
+*  Updated it with the websocket value copied and saved ealier
+<img width="842" alt="6" src="https://github.com/Gailpositive/Aws-Networking-Implementation-Projects/assets/111061512/5e72d96f-82ec-41a1-88e9-8bbf78814cce">
+
+* Install "Node version manager" nvm and set it to the v16 (codename: Gallium)
+<img width="753" alt="7" src="https://github.com/Gailpositive/Aws-Networking-Implementation-Projects/assets/111061512/5bee82e4-9768-44e9-ab31-cc628fbe8f30">
