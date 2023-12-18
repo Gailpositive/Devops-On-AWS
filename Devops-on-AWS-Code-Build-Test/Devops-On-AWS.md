@@ -1,5 +1,5 @@
 
-# CREATING A REACT WEB APP ON AWS DEVOPS
+# CREATING A REACT GAME WEB APP ON AWS DEVOPS
 ## Introduction to AWS DevOps  practices, and tools to deliver applications and services faster and at a higher quality. 
 ### Exercise: Setting Up Development Environment
 In a production environment, I'd create a custom policy in AWS IAM for precise control. However, for this exercise, I skip that. I'm setting up a development space with AWS Cloud9, downloading code, and using AWS SAM CLI to build a serverless app. It includes backend elements like API Gateway, Lambda functions, DynamoDB, and a smart process. The frontend, a React web app, sits in an S3 bucket. Finally, I store my progress in AWS CodeCommit once the app is running.
