@@ -72,6 +72,7 @@ In a production environment, I'd create a custom policy in AWS IAM for precise c
 * There was an error issue,the bucket does not allow or support ACLs-Access Control List
 
 <img width="960" alt="12" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/7b7e2516-e48d-421f-aa83-6e3470813567">
+
 * To resolves this problem, I either update the sync command to exclude the "acl public-read" part which will use the defualt ACL settings for the bucket or update S3 policies
 <img width="680" alt="15 removed ACLs" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/8794501c-e093-410e-ba39-12e76bfb9f64">
 
