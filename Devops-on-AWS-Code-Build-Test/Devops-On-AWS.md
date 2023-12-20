@@ -98,3 +98,31 @@ In a production environment, I'd create a custom policy in AWS IAM for precise c
 
 * View the application that’s hosted on my bucket on browser, by using the application URL
 <img width="880" alt="22" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/dcd14175-8b02-4e1d-8887-f4c6daf1918e">
+
+### Task 5: Putting the application under source control on AWS Codecomit
+* On Codecomit, create a repo
+<img width="914" alt="code comit1" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/f4ccfcda-f86f-405c-acbd-c9f6682628f7">
+
+* Name the Repo and create
+<img width="845" alt="code comit2" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/3053e3d2-bf41-440a-a33f-7cec4c027e80">
+
+* Switch to cloud9 ternimal environment
+* Config git with my name and email
+  <img width="898" alt="git 1" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/1144ba13-08b8-4220-ba4d-846177e68c38">
+
+  * cd trivia-app and
+  * git initialize the repo
+<img width="599" alt="git init 2" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/6ebc3b39-1383-4857-8c37-0a4bda7db1f3">
+
+* Create a branch and switch into it
+<img width="567" alt="git checkout main 3" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/adf4b441-0a92-4abb-a213-3811f39f6479">
+
+* git add . to stage changes in pwd
+<img width="806" alt="git add and commit 4" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/291ba742-4998-4049-85cf-d4e6af4c3487">
+
+* git commit to save changes
+<img width="769" alt="git commit 5" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/782f84be-a0f6-45da-bb82-ea78363313f1">
+
+*  Git remote tracks the remote repository that is hosted in CodeCommit.
+*  git push  Update the remote named origin with the main branch.
+ <img width="898" alt="git 1" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/1144ba13-08b8-4220-ba4d-846177e68c38">
