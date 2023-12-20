@@ -57,4 +57,16 @@ In a production environment, I'd create a custom policy in AWS IAM for precise c
 <img width="753" alt="7" src="https://github.com/Gailpositive/Aws-Networking-Implementation-Projects/assets/111061512/5bee82e4-9768-44e9-ab31-cc628fbe8f30">
 
 * I cd into the front-end-react directory and install the NPM dependencies
+* NPM installation complied successful
+* In the AWS Cloud9 menu bar, I click Preview and click Preview Running Application
 <img width="947" alt="9b" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/da298254-6482-4804-9366-9399b01355fe">
+
+### Task 4: Deploying the frontend to an S3 bucket
+* Execute the AWS cli command to create the S3 bucket
+* Gave it a name with the strings "trivia-app-bucket"
+* Run the command to build my web application
+
+
+* Deploy the build artifacts to the S3 buckets
+<img width="960" alt="12" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/7b7e2516-e48d-421f-aa83-6e3470813567">
+
