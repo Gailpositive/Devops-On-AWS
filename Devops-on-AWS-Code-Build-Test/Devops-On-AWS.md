@@ -96,6 +96,7 @@ In a production environment, I'd create a custom policy in AWS IAM for precise c
 <img width="919" alt="20" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/605e737f-f8d6-4fa8-aa7e-8f6e827382bc">
 <img width="921" alt="21" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/d26d33ee-1996-4333-adf9-7594d40e9922">
 
+# THE END!
 * View the application that’s hosted on my bucket on browser, by using the application URL
 <img width="880" alt="22" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/dcd14175-8b02-4e1d-8887-f4c6daf1918e">
 
