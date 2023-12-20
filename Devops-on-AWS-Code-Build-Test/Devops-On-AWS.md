@@ -40,6 +40,7 @@ In a production environment, I'd create a custom policy in AWS IAM for precise c
 
 ### Task 2: In deploying AWS serverless application model (SAM) & AWS command line interface (CLI) to create the back-end infrastracture, 
 * I cd into the app folder and  use SAM to build the template.yaml file.
+* Successfully created/updated stack - trivia-app in us-west-2
 * From the Outputs table in the terminal output, I copy and saved the Websocket Value
 <img width="957" alt="5" src="https://github.com/Gailpositive/Aws-Networking-Implementation-Projects/assets/111061512/54b3a124-27bf-480f-abab-661be43e12d3">
 
@@ -52,5 +53,8 @@ In a production environment, I'd create a custom policy in AWS IAM for precise c
 *  Update it with the websocket value copied and saved ealier
 <img width="842" alt="6" src="https://github.com/Gailpositive/Aws-Networking-Implementation-Projects/assets/111061512/5e72d96f-82ec-41a1-88e9-8bbf78814cce">
 
-* Install "Node version manager" nvm and set it to the v16 (codename: Gallium)
+* To simplify Node.js version manager, I install nvm and set it to the v16 (codename: Gallium) 
 <img width="753" alt="7" src="https://github.com/Gailpositive/Aws-Networking-Implementation-Projects/assets/111061512/5bee82e4-9768-44e9-ab31-cc628fbe8f30">
+
+* I cd into the front-end-react directory and install the NPM dependencies
+<img width="947" alt="9b" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/da298254-6482-4804-9366-9399b01355fe">
