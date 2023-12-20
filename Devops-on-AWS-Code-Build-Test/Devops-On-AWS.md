@@ -88,3 +88,13 @@ In a production environment, I'd create a custom policy in AWS IAM for precise c
 * Json policy allowing public read to all object
 * The Resource field in the policy specifies the bucket ARN (Amazon Resource Name), determiningthe precise scope of permissions and allowing detailed control
 <img width="379" alt="18" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/632beaed-7f96-4280-9d6c-0a8bd539c18b">
+
+* Object Ownership not transferable to another AWS account or entity. Ownership model is fundamental to S3's access control and security mechanisms.
+  <img width="915" alt="19" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/02fb2f08-fbb1-4990-b07f-f5d13eaf83e8">
+
+ * Enable ACLs (Access Control List) to grant only read access to this object and bucket
+<img width="919" alt="20" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/605e737f-f8d6-4fa8-aa7e-8f6e827382bc">
+<img width="921" alt="21" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/d26d33ee-1996-4333-adf9-7594d40e9922">
+
+* View the application that’s hosted on my bucket on browser, by using the application URL
+<img width="880" alt="22" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/dcd14175-8b02-4e1d-8887-f4c6daf1918e">
