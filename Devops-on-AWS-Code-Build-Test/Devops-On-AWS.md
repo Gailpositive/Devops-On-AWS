@@ -65,8 +65,26 @@ In a production environment, I'd create a custom policy in AWS IAM for precise c
 * Execute the AWS cli command to create the S3 bucket
 * Gave it a name with the strings "trivia-app-bucket"
 * Run the command to build my web application
-
+* Application build successfully
+<img width="882" alt="10" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/b5875f1f-60dc-44c3-b5a1-8a6df3dab0ed">
 
 * Deploy the build artifacts to the S3 buckets
-<img width="960" alt="12" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/7b7e2516-e48d-421f-aa83-6e3470813567">
+* There was an error issue,the bucket does not allow or support ACLs-Access Control List
 
+<img width="960" alt="12" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/7b7e2516-e48d-421f-aa83-6e3470813567">
+* To resolves this problem, I either update the sync command to exclude the "acl public-read" part which will use the defualt ACL settings for the bucket or update S3 policies
+<img width="680" alt="15 removed ACLs" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/8794501c-e093-410e-ba39-12e76bfb9f64">
+
+* Since my intent is to make the objects in the S3 bucket publicly readable, than I updated the S3 bucket policy to allow public read access
+* To do this, in the S3 bucket, I navigate to the permisssion tab to update permissions and the bucket policy 
+<img width="902" alt="13" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/c89727af-3d7e-49f5-af6d-5b62fc9de543">
+
+* I turned off "block public access"
+<img width="828" alt="14" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/688a22c1-d2a3-45aa-95bf-3697458431c1">
+
+* Editing the bucket policy
+<img width="693" alt="16" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/c8303e77-efbc-4512-ac2b-8e4df6098e2f">
+
+* Json policy allowing public read to all object
+* The Resource field in the policy specifies the bucket ARN (Amazon Resource Name), determiningthe precise scope of permissions and allowing detailed control
+<img width="379" alt="18" src="https://github.com/Gailpositive/Devops-On-AWS/assets/111061512/632beaed-7f96-4280-9d6c-0a8bd539c18b">
