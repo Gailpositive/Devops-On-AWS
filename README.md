@@ -1,5 +1,5 @@
 # Devops-On-AWS
-## Code, Build And Test
+## A REACT GAME WEB APP ON AWS DEVOPS
 
 ### STEP 1 EXERCISE: Setting Up The Development Environment
 
